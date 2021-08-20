@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChatServiceGUI.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="400.0" prefWidth="500.0">
+            <children>
+            <Pane prefHeight="38.0" prefWidth="500.0" style="-fx-background-color: #62B074;">
+               <children>
+                      <Label layoutX="207.0" layoutY="7.0" text="Chat Service">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <TextField layoutX="26.0" layoutY="339.0" prefHeight="47.0" prefWidth="396.0" promptText="Ingrese su texto" />
+            <Button layoutX="434.0" layoutY="350.0" mnemonicParsing="false" text="Enviar" />
+            <TextArea layoutX="18.0" layoutY="44.0" prefHeight="292.0" prefWidth="472.0" />
+            </children>
+        </Pane>
+    </children>
+</GridPane>
