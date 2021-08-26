@@ -4,12 +4,19 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e168c28d-4dc2-439d-b5c1-dcba76ae4a83" name="Default Changelist" comment="Basic GUI without functionality">
-      <change afterPath="$PROJECT_DIR$/src/ChatServiceGUI/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChatServiceGUI/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChatServiceGUI/TotalAmount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e168c28d-4dc2-439d-b5c1-dcba76ae4a83" name="Default Changelist" comment="Client-Server First Test">
+      <change afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ClientRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chat-Service/ChatServiceGUI/ChatServiceApp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat-Service/ChatServiceGUI/ChatServiceApp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chat-Service/ChatServiceGUI/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat-Service/ChatServiceGUI/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chat-Service/ChatServiceGUI/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat-Service/ChatServiceGUI/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServiceApp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServiceApp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/TotalAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/TotalAmount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +54,7 @@
       <recent name="ChatServiceGUI" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cliente">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ChatServiceGUI.Cliente" />
       <module name="Chat-Service" />
@@ -61,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ChatServiceGUI.Main" />
       <module name="Chat-Service" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\jusfb\.jdks\openjdk-16.0.2\lib\JavaFx&quot; --add-modules=javafx.controls,javafx.fxml" />
@@ -95,9 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Cliente" />
-        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Cliente" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +118,12 @@
       <updated>1629429876427</updated>
       <workItem from="1629429881228" duration="822000" />
       <workItem from="1629434421469" duration="3447000" />
-      <workItem from="1629467629949" duration="5454000" />
+      <workItem from="1629467629949" duration="6155000" />
+      <workItem from="1629474898067" duration="7646000" />
+      <workItem from="1629486923437" duration="1586000" />
+      <workItem from="1629682054427" duration="4494000" />
+      <workItem from="1629777941812" duration="968000" />
+      <workItem from="1629944944729" duration="13812000" />
     </task>
     <task id="LOCAL-00001" summary="Basic GUI without functionality">
       <created>1629437654677</created>
@@ -120,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629437654677</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Client-Server First Test">
+      <created>1629473628571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629473628572</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +159,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic GUI without functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic GUI without functionality" />
+    <MESSAGE value="Client-Server First Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Client-Server First Test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.SocketException" package="java.net" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

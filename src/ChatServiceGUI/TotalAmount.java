@@ -3,7 +3,7 @@ package ChatServiceGUI;
 public class TotalAmount {
     private int productValue, weightValue, taxPercentaje;
     private float amount;
-    private TotalAmount instance;
+    private static TotalAmount instance;
 
     /**
      *
@@ -17,13 +17,19 @@ public class TotalAmount {
         this.taxPercentaje = taxPercentaje;
         this.amount = (float) ((productValue*taxPercentaje/100)+(weightValue*0.15));
     }
-    public TotalAmount getInstance(int productValue, int weightValue, int taxPercentaje) {
+    public static TotalAmount getInstance() {
         if (instance == null){
-            instance = new TotalAmount(productValue,weightValue,taxPercentaje);
+            instance = new TotalAmount(0,0,0);
         }
         return instance;
     }
-    public void updateValues(int productValue, int weightValue, int taxPercentaje) {
-        this.productValue = productValue;
+
+
+    public static float updateValues(int productValue, int weightValue, int taxPercentaje) {
+        instance.productValue = productValue;
+        instance.weightValue = weightValue;
+        instance.taxPercentaje = taxPercentaje;
+        instance.amount = (float) ((productValue*taxPercentaje/100)+(weightValue*0.15));
+        return instance.amount;
     }
 }

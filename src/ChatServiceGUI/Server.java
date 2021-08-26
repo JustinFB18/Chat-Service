@@ -2,35 +2,43 @@ package ChatServiceGUI;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
+import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.ArrayList;
 
 public class Server {
+    private ArrayList<ClientHandler> clientela;
+    private ServerSocket serverSystem;
 
-    public static void main(String[] args) {
+    public Server() {
+        clientela = new ArrayList<ClientHandler>();
+    }
+
+    public void ServerCreate() throws IOException {
         final int PORT = 5000;
-        ServerSocket serverSystem;
-        Socket cliente = null;
-        DataInputStream incomingMessage;
-        DataOutputStream outgoingMessage;
-        try {
-            serverSystem = new ServerSocket(PORT);
-            System.out.println("Servidor Iniciado");
-            while (true) {
-                cliente = serverSystem.accept();
-                incomingMessage = new DataInputStream(cliente.getInputStream());
-                outgoingMessage = new DataOutputStream(cliente.getOutputStream());
-                outgoingMessage.writeUTF("Hola desde el server");
-                String message = "";
-                message = incomingMessage.readUTF();
-                System.out.println("message = " + message);
-                cliente.close();
-                System.out.println("Cliente desconectado");
-            }
-        }
-        catch (Exception e){
-            System.err.println(e.getMessage());
-            System.exit(1);
+        serverSystem = new ServerSocket(PORT);
+
+        while (true) {
+            Socket client = serverSystem.accept();
+            System.out.println("Cliente Conectado...");
+            ClientHandler clientsHandler = new ClientHandler(client, clientela);
+            clientela.add(clientsHandler);
+            clientsHandler.start();
         }
     }
+
+    public void kill() throws IOException {
+        serverSystem.close();
+    }
+
+    public static void main(String[] args) {
+        Server myServer = new Server();
+        try {
+            myServer.ServerCreate();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
