@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e168c28d-4dc2-439d-b5c1-dcba76ae4a83" name="Default Changelist" comment="Client-Server Second Test">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/ClientHandler.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/ClientHandler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/ClientRunnable.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/ClientRunnable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/Cliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/Cliente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/Server.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/Server.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/class-use/ClientHandler.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/class-use/ClientHandler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/class-use/ClientRunnable.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/class-use/ClientRunnable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/class-use/Cliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/class-use/Cliente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/class-use/Server.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/class-use/Server.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServer/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ClientRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatClient/ClientRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatClient/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServer/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +55,11 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChatServiceGUI.Cliente" />
+      <option name="MAIN_CLASS_NAME" value="ChatServiceGUI.ChatClient.Cliente" />
       <module name="Chat-Service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChatServiceGUI.*" />
+          <option name="PATTERN" value="ChatServiceGUI.ChatClient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,11 +76,11 @@
       </method>
     </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChatServiceGUI.Server" />
+      <option name="MAIN_CLASS_NAME" value="ChatServiceGUI.ChatServer.Server" />
       <module name="Chat-Service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChatServiceGUI.*" />
+          <option name="PATTERN" value="ChatServiceGUI.ChatClient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,23 +93,10 @@
       <module name="Chat-Service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChatServiceGUI.*" />
+          <option name="PATTERN" value="ChatServiceGUI.ChatClient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,6 +127,12 @@
       <workItem from="1629777941812" duration="968000" />
       <workItem from="1629944944729" duration="14037000" />
       <workItem from="1630036773355" duration="4615000" />
+      <workItem from="1630117831785" duration="46000" />
+      <workItem from="1630118565590" duration="35000" />
+      <workItem from="1630118629452" duration="108000" />
+      <workItem from="1630119412887" duration="45000" />
+      <workItem from="1630120063435" duration="1514000" />
+      <workItem from="1630122029332" duration="204000" />
     </task>
     <task id="LOCAL-00001" summary="Basic GUI without functionality">
       <created>1629437654677</created>

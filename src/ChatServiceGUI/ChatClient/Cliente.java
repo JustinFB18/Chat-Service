@@ -1,4 +1,5 @@
-package ChatServiceGUI;
+package ChatServiceGUI.ChatClient;
+
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

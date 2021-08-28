@@ -1,4 +1,4 @@
-package ChatServiceGUI;
+package ChatServiceGUI.ChatClient;
 
 
 import java.io.*;

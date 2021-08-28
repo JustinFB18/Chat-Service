@@ -1,4 +1,6 @@
-package ChatServiceGUI;
+package ChatServiceGUI.ChatServer;
+
+import ChatServiceGUI.TotalAmount;
 
 import java.io.*;
 import java.net.Socket;

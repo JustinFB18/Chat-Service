@@ -1,5 +1,4 @@
-package ChatServiceGUI;
-
+package ChatServiceGUI.ChatServer;
 
 import java.io.IOException;
 import java.net.ServerSocket;
