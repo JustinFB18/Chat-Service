@@ -1,21 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e168c28d-4dc2-439d-b5c1-dcba76ae4a83" name="Default Changelist" comment="Client-Server Second Test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/ClientHandler.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/ClientHandler.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/ClientRunnable.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/ClientRunnable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/Cliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/Cliente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/Server.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/Server.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/class-use/ClientHandler.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/class-use/ClientHandler.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/class-use/ClientRunnable.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/class-use/ClientRunnable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/class-use/Cliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/class-use/Cliente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatServiceGUI/class-use/Server.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatServiceGUI/class-use/Server.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServer/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ClientRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatClient/ClientRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatClient/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServer/Server.java" afterDir="false" />
+    <list default="true" id="e168c28d-4dc2-439d-b5c1-dcba76ae4a83" name="Default Changelist" comment="Package Restructuring">
+      <change beforePath="$PROJECT_DIR$/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jquery-ui.overrides.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/type-search-index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -133,6 +174,7 @@
       <workItem from="1630119412887" duration="45000" />
       <workItem from="1630120063435" duration="1514000" />
       <workItem from="1630122029332" duration="204000" />
+      <workItem from="1630122469169" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="Basic GUI without functionality">
       <created>1629437654677</created>
@@ -162,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629959641958</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Package Restructuring">
+      <created>1630122668824</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630122668824</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +233,8 @@
     <MESSAGE value="Basic GUI without functionality" />
     <MESSAGE value="Client-Server First Test" />
     <MESSAGE value="Client-Server Second Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Client-Server Second Test" />
+    <MESSAGE value="Package Restructuring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Package Restructuring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
