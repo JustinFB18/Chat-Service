@@ -8,6 +8,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Gestionates the clients connected to a server and helps the server to access to the clients.
+ *
+ * @author Justin Fern&aacute;ndez
+ * @version 1
+ */
 public class ClientHandler extends Thread{
 
     private final Socket client;

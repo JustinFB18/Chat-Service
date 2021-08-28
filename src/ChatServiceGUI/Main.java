@@ -7,20 +7,21 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
-
+/**
+ * The Main Java Class that creates two windows which have the same
+ * design.
+ *
+ * @author Justin Fern&aacute;ndez
+ * @version 1
+ */
 public class Main extends Application {
     /**
-     * The Main Java Class that creates two windows which have the same
-     * design.
-     *
-     * @author Justin Fernández
-     * @version 1
+     * Sets the ambient of the windows and shows them.
+     * @param primaryStage recieves the Stage which the App will be implementd.
+     * @throws Exception if something happened loading the fxml file with the code for the app.
      */
     @Override
     public void start(Stage primaryStage) throws Exception{
-        /**
-         *
-         */
         // Creates other stage
         Stage secondStage = new Stage();
 
@@ -49,7 +50,10 @@ public class Main extends Application {
         secondStage.show();
     }
 
-
+    /**
+     * Main method of the Main class to open the GUI
+     * @param args stores the incomding command line arguments for the program
+     */
     public static void main(String[] args) {
         launch(args);
     }

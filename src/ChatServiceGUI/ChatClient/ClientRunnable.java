@@ -3,6 +3,12 @@ package ChatServiceGUI.ChatClient;
 
 import java.io.*;
 
+/**
+ * Creates clients with the ability of run in separate thread at the same time
+ *
+ * @author Justin Fern&aacute;ndez
+ * @version 1
+ */
 public class ClientRunnable implements Runnable{
 
     private final DataInputStream input;
