@@ -16,10 +16,11 @@ import java.net.Socket;
 public class Cliente {
 
     private final String HOST ="127.0.0.1";
-    final int PORT = 5000;
+    private final int PORT = 5000;
     private DataInputStream incomingMessage;
     private DataOutputStream outgoingMessage;
     private Socket cliente;
+    private ClientRunnable clientRun;
 
     /**
      * Open the key components to have a connected client with the server and be able to send and get messages from other users since server.
@@ -54,7 +55,7 @@ public class Cliente {
      */
     public void open() throws IOException{
         openConnectorsForCommunications();
-        ClientRunnable clientRun = new ClientRunnable(cliente.getInputStream());
+        clientRun = new ClientRunnable(cliente.getInputStream(),cliente.getOutputStream());
         new Thread(clientRun).start();
     }
 
@@ -69,10 +70,20 @@ public class Cliente {
     public void openConnection(String Info) throws IOException{
         while (true) {
             outgoingMessage.writeUTF(Info);
-            String l1 = "";
-            System.out.println("HOLAAAA");
-            l1 = incomingMessage.readUTF();
-            System.out.println("55555");
+            break;
         }
+    }
+
+    public String calcularMonto() {
+        String l1 = "";
+        l1 = clientRun.getValue();
+        if (!l1.equalsIgnoreCase("")){
+            System.out.println(l1 + "====");
+        }
+        return l1;
+    }
+
+    public String retornar() throws IOException {
+        return incomingMessage.readUTF();
     }
 }

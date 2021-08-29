@@ -13,23 +13,24 @@ import java.io.IOException;
  * @author Justin Fern&aacute;ndez
  * @version 1
  */
-public class Controller{
+public class Controller {
     @FXML
     private TextField txtInfo;
     @FXML
     private TextArea txtMessages;
     String text = "";
     float value;
-    Cliente client = new Cliente();
     private boolean state = false;
+    Cliente client;
 
     /**
-     * When the button with the text: "Conectar" is clicked this event happens and connects the client
-     * with a server.
-     * @param actionEvent Receives a event of action connected to the button of connect
-     * @throws IOException If is not possible to connect the socket of the client with a server.
+     * This method occurs when the window is opened and connects the client with a server.
+     *
+     * @throws IOException if it is not possible to connect with the server.
      */
-    public void btnConnect(ActionEvent actionEvent) throws IOException{
+    @FXML
+    public void initialize() throws IOException {
+        client = new Cliente();
         if (!state) {
             client.open();
             state = true;
@@ -39,17 +40,31 @@ public class Controller{
     /**
      * When the button with the text: "Enviar" is clicked this event occurs and sends the information
      * to the server for the other client.
+     *
      * @param actionEvent Receives a event of action connected to the button of send
      * @throws IOException if something wrong happens with the openConnection method.
      */
     public void btnSendClick(ActionEvent actionEvent) throws IOException {
         String Info = txtInfo.getText();
-        text += Info + "\n";
-        txtMessages.setText(text);
-        client.openConnection(Info);
-        // client.calcularMonto()
-        txtMessages.setText(text);
-        System.out.println("He regresado");
-        client.closeConnection();
+        String mas = "";
+        text += "\n";
+        try {
+            client.openConnection(Info);
+            mas = client.calcularMonto();
+            System.out.println("mas = " + mas);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            text += "Hola\n";
+            txtMessages.setText(text);
+            text += mas+"\n";
+            txtMessages.setText(text);
+            text += Info+"\n";
+            txtMessages.setText(text);
+            //text += client.retornar();
+            txtMessages.setText(text);
+            System.out.println("He regresado");
+        }
     }
+
 }

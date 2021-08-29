@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e168c28d-4dc2-439d-b5c1-dcba76ae4a83" name="Default Changelist" comment="Javadoc First Documentation Documents restructuring 3">
-      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServer/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServer/Server.java" afterDir="false" />
+    <list default="true" id="e168c28d-4dc2-439d-b5c1-dcba76ae4a83" name="Default Changelist" comment="Javadoc Second Documentation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chat-Service/ChatServiceGUI/ChatServiceApp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat-Service/ChatServiceGUI/ChatServiceApp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ChatClient/ClientRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatClient/ClientRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ChatClient/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatClient/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServer/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServer/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServiceApp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServiceApp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ChatServiceGUI" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -38,6 +44,11 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ChatServiceGUI" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jusfb\Desktop\Algoritmos y Estructura de Datos I\Tarea Extraclase 1\Chat-Service\src\ChatServiceGUI" />
+      <recent name="C:\Users\jusfb\Desktop\Algoritmos y Estructura de Datos I\Tarea Extraclase 1\Chat-Service\src\ChatServiceGUI\ChatClient" />
+      <recent name="C:\Users\jusfb\Desktop\Algoritmos y Estructura de Datos I\Tarea Extraclase 1\Chat-Service\src\ChatServiceGUI\ChatServer" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -88,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -133,7 +131,8 @@
       <workItem from="1630119412887" duration="45000" />
       <workItem from="1630120063435" duration="1514000" />
       <workItem from="1630122029332" duration="204000" />
-      <workItem from="1630122469169" duration="1072000" />
+      <workItem from="1630122469169" duration="1535000" />
+      <workItem from="1630193373061" duration="8863000" />
     </task>
     <task id="LOCAL-00001" summary="Basic GUI without functionality">
       <created>1629437654677</created>
@@ -191,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630123374582</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Javadoc Second Documentation">
+      <created>1630123836536</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1630123836536</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +223,8 @@
     <MESSAGE value="Javadoc First Documentation Documents restructuring" />
     <MESSAGE value="Javadoc First Documentation Documents restructuring 2" />
     <MESSAGE value="Javadoc First Documentation Documents restructuring 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Javadoc First Documentation Documents restructuring 3" />
+    <MESSAGE value="Javadoc Second Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Javadoc Second Documentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -21,11 +21,10 @@
                         <Font name="System Bold Italic" size="16.0" />
                      </font>
                   </Label>
-                  <Button fx:id="connect" layoutX="415.0" layoutY="12.0" mnemonicParsing="false" onAction="#btnConnect" text="Conectar" />
                </children></Pane>
             <TextField fx:id="txtInfo" layoutX="17.0" layoutY="339.0" prefHeight="47.0" prefWidth="405.0" promptText="Ingrese el peso, los impuestos y el valor del producto" />
             <Button fx:id="btnSend" layoutX="434.0" layoutY="350.0" mnemonicParsing="false" onAction="#btnSendClick" text="Enviar" />
-            <TextArea fx:id="txtMessages" editable="false" layoutX="18.0" layoutY="44.0" prefHeight="292.0" prefWidth="472.0" />
+            <TextArea fx:id="txtMessages" editable="false" layoutX="18.0" layoutY="44.0" prefHeight="292.0" prefWidth="472.0" wrapText="true" />
             </children>
         </Pane>
     </children>

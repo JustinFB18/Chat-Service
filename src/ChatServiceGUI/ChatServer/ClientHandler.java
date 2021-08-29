@@ -1,12 +1,9 @@
 package ChatServiceGUI.ChatServer;
 
-import ChatServiceGUI.TotalAmount;
 
 import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Gestionates the clients connected to a server and helps the server to access to the clients.
@@ -31,19 +28,15 @@ public class ClientHandler extends Thread{
         output = new DataOutputStream(client.getOutputStream());
     }
 
-    private void notifyAllClients(String msg) throws IOException{
-        if (msg.equalsIgnoreCase("EXIT")) {
-            this.output.writeUTF("EXIT");
-        }else{
-            System.out.println(String.valueOf(clientsList.size()));
-            for (ClientHandler cliente : clientsList){
-                if (!cliente.equals(this)){
-                    cliente.output.writeUTF(msg);
-                }
+    private void notifyOtherClients(String msg) throws IOException {
+        for (ClientHandler cliente : clientsList) {
+            if (!cliente.equals(this.client)) {
+                cliente.output.writeUTF(msg);
+                System.out.println("cliente ");
             }
         }
-        System.out.println("3");
     }
+
     private void kill() throws IOException {
         input.close();
         output.close();
@@ -59,13 +52,7 @@ public class ClientHandler extends Thread{
                 if (msg.equalsIgnoreCase("EXIT")) {
                     break;
                 }
-                // The logic
-                List<String> textDivided = Arrays.asList(msg.split(","));
-                TotalAmount.getInstance();
-                float value = TotalAmount.updateValues(Integer.parseInt(textDivided.get(0)), Integer.parseInt(textDivided.get(1)), Integer.parseInt(textDivided.get(2)));
-                System.out.println("value = " + value);
-                msg = " El monto total a pagar es: ";
-                notifyAllClients(msg);
+                notifyOtherClients(msg);
             }
             kill();
         }
