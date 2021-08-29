@@ -3,9 +3,12 @@ package ChatServiceGUI;
 import ChatServiceGUI.ChatClient.Cliente;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import java.io.IOException;
+import java.util.Optional;
 
 /**
  * Control the functions and the interactivity between the user and the app.
@@ -22,7 +25,6 @@ public class Controller {
     float value;
     private boolean state = false;
     Cliente client;
-
     /**
      * This method occurs when the window is opened and connects the client with a server.
      *
@@ -46,24 +48,23 @@ public class Controller {
      */
     public void btnSendClick(ActionEvent actionEvent) throws IOException {
         String Info = txtInfo.getText();
-        String mas = "";
+        txtInfo.setText("");
+        String monto_aux = "";
         text += "\n";
         try {
             client.openConnection(Info);
-            mas = client.calcularMonto();
-            System.out.println("mas = " + mas);
+            monto_aux = client.retornarMonto();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            text += "Hola\n";
-            txtMessages.setText(text);
-            text += mas+"\n";
-            txtMessages.setText(text);
-            text += Info+"\n";
-            txtMessages.setText(text);
-            //text += client.retornar();
-            txtMessages.setText(text);
-            System.out.println("He regresado");
+            if (!monto_aux.equals("")){
+                text += monto_aux+"\n";
+                txtMessages.setText(text);
+            }
+            if (!Info.equals("")){
+                text += Info+"\n";
+                txtMessages.setText(text);
+            }
         }
     }
 

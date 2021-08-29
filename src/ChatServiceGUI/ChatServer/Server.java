@@ -39,7 +39,6 @@ public class Server {
         while (true) {
             // this is the return value when the server accept a new user.
             Socket client = serverSystem.accept();
-            System.out.println("Cliente Conectado...");
             // gestionate the connected clients from a server.
             ClientHandler clientsHandler = new ClientHandler(client, clientela);
             clientela.add(clientsHandler);

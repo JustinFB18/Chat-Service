@@ -4,6 +4,7 @@ package ChatServiceGUI.ChatClient;
 import ChatServiceGUI.TotalAmount;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -20,6 +21,12 @@ public class ClientRunnable implements Runnable{
     public String msg;
     public String msg2;
 
+    /**
+     * Initialize the components for the communication.
+     * @param socketIn allows to read messages from other clients.
+     * @param socketOut allows to send messages to other clients.
+     * @throws IOException if something happens to create elements for communication.
+     */
     public ClientRunnable(InputStream socketIn, OutputStream socketOut) throws IOException {
         this.input = new DataInputStream(socketIn);
         this.out = new DataOutputStream(socketOut);
@@ -27,6 +34,9 @@ public class ClientRunnable implements Runnable{
         this.msg2 = "";
     }
 
+    /**
+     * This method executes when start is called in cliente class.
+     */
     @Override
     public void run() {
         try{
@@ -36,15 +46,12 @@ public class ClientRunnable implements Runnable{
                     input.close();
                     break;
                 } else if (!msg.equalsIgnoreCase("")) {
-                    List<String> textDivided = Arrays.asList(msg.split(","));
+                    List<String> textDivided_full = Arrays.asList(msg.split("\n"));
+                    List<String> textDivided = Arrays.asList(textDivided_full.get(0).split(","));
                     TotalAmount.getInstance();
                     float value = TotalAmount.updateValues(Integer.parseInt(textDivided.get(0)), Integer.parseInt(textDivided.get(1)), Integer.parseInt(textDivided.get(2)));
-                    this.msg2 = String.valueOf(value);
-                    //out.writeUTF(this.msg2);
-                    System.out.println("this.msg2 = " + this.msg2);
+                    this.msg2 = textDivided_full.get(textDivided_full.size()-1) + "\n" +String.valueOf(value);
                 }
-
-                System.out.println("3231");
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -57,8 +64,14 @@ public class ClientRunnable implements Runnable{
         }
 
     }
-    public String getValue() {
-        return this.msg2;
+
+    /**
+     * Getter to the msg2 attribute which works like a aux string.
+     *
+     * @return msg2 It contains the sended messages and the total amount.
+     */
+    public String getMsg2() {
+        return msg2;
     }
 }
 

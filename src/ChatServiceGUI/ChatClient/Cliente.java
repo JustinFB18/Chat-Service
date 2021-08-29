@@ -74,16 +74,14 @@ public class Cliente {
         }
     }
 
-    public String calcularMonto() {
-        String l1 = "";
-        l1 = clientRun.getValue();
-        if (!l1.equalsIgnoreCase("")){
-            System.out.println(l1 + "====");
-        }
-        return l1;
-    }
-
-    public String retornar() throws IOException {
-        return incomingMessage.readUTF();
+    /**
+     * Method to return the value calculated.
+     *
+     * @return monto_aux This is the result of the operation as a String.
+     */
+    public String retornarMonto() {
+        String monto_aux = "";
+        monto_aux = clientRun.getMsg2();
+        return monto_aux;
     }
 }

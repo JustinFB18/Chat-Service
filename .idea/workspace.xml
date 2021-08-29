@@ -1,13 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e168c28d-4dc2-439d-b5c1-dcba76ae4a83" name="Default Changelist" comment="Javadoc Second Documentation">
+    <list default="true" id="e168c28d-4dc2-439d-b5c1-dcba76ae4a83" name="Default Changelist" comment="Client-Server Third Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chat-Service/ChatServiceGUI/ChatServiceApp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat-Service/ChatServiceGUI/ChatServiceApp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatClient/ClientRunnable.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatClient/ClientRunnable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatClient/Cliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatClient/Cliente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatClient/class-use/ClientRunnable.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatClient/class-use/ClientRunnable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatClient/class-use/Cliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatClient/class-use/Cliente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatClient/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatClient/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatClient/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatClient/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatClient/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatClient/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatServer/ClientHandler.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatServer/ClientHandler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatServer/Server.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatServer/Server.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatServer/class-use/ClientHandler.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatServer/class-use/ClientHandler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatServer/class-use/Server.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatServer/class-use/Server.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatServer/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatServer/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatServer/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatServer/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatServer/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/ChatServer/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/Controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/Controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/TotalAmount.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/TotalAmount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/class-use/Controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/class-use/Controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/class-use/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/class-use/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/class-use/TotalAmount.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/class-use/TotalAmount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/ChatServiceGUI/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chat-Service/ChatServiceGUI/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat-Service/ChatServiceGUI/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ChatClient/ClientRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatClient/ClientRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ChatClient/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatClient/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServer/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServer/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServiceApp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServiceApp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServer/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/ChatServer/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ChatServiceGUI/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatServiceGUI/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +139,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -133,6 +186,7 @@
       <workItem from="1630122029332" duration="204000" />
       <workItem from="1630122469169" duration="1535000" />
       <workItem from="1630193373061" duration="8863000" />
+      <workItem from="1630202406278" duration="8194000" />
     </task>
     <task id="LOCAL-00001" summary="Basic GUI without functionality">
       <created>1629437654677</created>
@@ -197,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630123836536</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Client-Server Third Test">
+      <created>1630202468735</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1630202468735</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +285,8 @@
     <MESSAGE value="Javadoc First Documentation Documents restructuring 2" />
     <MESSAGE value="Javadoc First Documentation Documents restructuring 3" />
     <MESSAGE value="Javadoc Second Documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Javadoc Second Documentation" />
+    <MESSAGE value="Client-Server Third Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Client-Server Third Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
