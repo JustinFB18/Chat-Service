@@ -28,7 +28,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("ChatServiceApp.fxml"));
         primaryStage.setTitle("Chat Service");
         // Adjust the dimensions of the window.
-        primaryStage.setScene(new Scene(root, 500, 400));
+        primaryStage.setScene(new Scene(root, 500, 426));
         // Adjust the window or desktop position to appear the window
         primaryStage.setX(200);
         primaryStage.setY(200);
@@ -42,7 +42,7 @@ public class Main extends Application {
         // Code for the second window, it is the same, only different initial postion.
         Parent root2 = FXMLLoader.load(getClass().getResource("ChatServiceApp.fxml"));
         secondStage.setTitle("Chat Service");
-        secondStage.setScene(new Scene(root2, 500, 400));
+        secondStage.setScene(new Scene(root2, 500, 426));
         secondStage.setX(800);
         secondStage.setY(200);
         secondStage.setResizable(false);

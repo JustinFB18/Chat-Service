@@ -12,7 +12,7 @@
         <RowConstraints />
     </rowConstraints>
     <children>
-        <Pane prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: #7B97C3;">
+        <Pane prefHeight="426.0" prefWidth="500.0" style="-fx-background-color: #7B97C3;">
             <children>
             <Pane fx:id="Header" prefHeight="38.0" prefWidth="500.0" style="-fx-background-color: #3A64A6;">
                <children>
@@ -22,9 +22,10 @@
                      </font>
                   </Label>
                </children></Pane>
-            <TextField fx:id="txtInfo" layoutX="17.0" layoutY="339.0" prefHeight="47.0" prefWidth="405.0" promptText="Ingrese el peso, los impuestos y el valor del producto" />
-            <Button fx:id="btnSend" layoutX="434.0" layoutY="350.0" mnemonicParsing="false" onAction="#btnSendClick" text="Enviar" />
+            <TextField fx:id="txtInfo" layoutX="18.0" layoutY="365.0" prefHeight="47.0" prefWidth="405.0" promptText="Ingrese el valor del producto, su peso y los impuestos" />
+            <Button fx:id="btnSend" layoutX="425.0" layoutY="370.0" mnemonicParsing="false" onAction="#btnSendClick" prefHeight="38.0" prefWidth="62.0" text="Enviar" />
             <TextArea fx:id="txtMessages" editable="false" layoutX="18.0" layoutY="44.0" prefHeight="292.0" prefWidth="472.0" wrapText="true" />
+            <Label fx:id="txtInfoRequired" layoutX="18.0" layoutY="342.0" text="Ingrese el valor del producto, su peso y los impuestos (separados por comas)" />
             </children>
         </Pane>
     </children>
