@@ -8,6 +8,8 @@ This is an easy app that implements client-server arquitecture for two clients w
 <li>After that run the main class. 
 A terminal will open and two windows of the clients.</li>
 <li>Start sending messages.</li>
+<li>Press again "Enviar" button to get the result.</li>
+<li>Press "Enviar" button update the other window client.</li>
 </ol>
 
 <h2>Author</h2>
